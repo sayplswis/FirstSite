@@ -1,0 +1,11 @@
+# .NET
+bin/
+obj/
+*.user
+*.sln.docstates
+
+# Node
+node_modules/
+dist/
+build/
+*.log
