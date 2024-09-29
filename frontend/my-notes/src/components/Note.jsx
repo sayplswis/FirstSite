@@ -4,15 +4,14 @@ import moment from 'moment'
 export default function Note({title, description, createdAt, onDelete, id}){
   const onSubmit = (e) => {
     console.log('submit')
-    e.preventDefault();
     onDelete(id);
   }
     return(
-        <Card variant={'filled'} onSubmit={onSubmit}>
+        <Card variant={'filled'}>
               <CardHeader>
               <Flex justify="space-between" align="center">
                 <Heading size={'md'}>{title}</Heading>
-                <Button type='submit' colorScheme='red' size={'xs'}>Удалить</Button>
+                <Button onClick={onSubmit} type='submit' colorScheme='red' size={'xs'}>Удалить</Button>
                 </Flex>
               </CardHeader>
               <Divider borderColor={"gray"} />
