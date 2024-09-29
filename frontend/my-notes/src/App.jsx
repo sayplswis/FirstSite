@@ -24,7 +24,6 @@ function App() {
     setNotes(notes);
   }
   const onDelete = async (id) => {
-    console.log(id);
     await deleteNote(id);
     let notes = await fetchNotes(filter);
     setNotes(notes);
