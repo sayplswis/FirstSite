@@ -33,6 +33,7 @@ export const deleteNote = async (id) =>{
     try
     {
         console.log('Sending data:', { id });
+        console.log(typeof id)
         var response = await axios.post('http://sayplswis.ru:5000/notes/delete', {id});
         return response.status;
     } 
