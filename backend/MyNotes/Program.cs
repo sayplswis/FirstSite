@@ -16,7 +16,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://sayplswis.ru:80");
+        // policy.WithOrigins("http://sayplswis.ru:80");
+        policy.AllowAnyOrigin();
         policy.AllowAnyHeader();
         policy.AllowAnyMethod();
     });
