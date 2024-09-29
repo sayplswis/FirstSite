@@ -3,7 +3,7 @@ import axios from 'axios'
 export const fetchNotes = async (filter) =>{
     try
     {
-        var response = await axios.get('http://localhost:5104/notes',{
+        var response = await axios.get('http://sayplswis.ru:5000/notes',{
             params:{
                 search: filter?.search,
                 sortItem: filter?.sortItem,
@@ -21,7 +21,7 @@ export const fetchNotes = async (filter) =>{
 export const createNote = async (note) =>{
     try
     {
-        var response = await axios.post('http://localhost:5104/notes',note);
+        var response = await axios.post('http://sayplswis.ru:5000/notes',note);
         return response.status;
     } 
     catch(e)
