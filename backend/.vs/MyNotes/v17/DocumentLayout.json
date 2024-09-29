@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\FirstSite\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|d:\\firstsite\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|d:\\firstsite\\backend\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|solutionrelative:nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\mynotes.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\mynotes.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|d:\\firstsite\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\contracts\\getnotesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +35,12 @@
       "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\dataaccess\\notesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|d:\\firstsite\\backend\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8D485BF7-93CD-4D6B-AE1F-F845EF25861A}|docker-compose.dcproj|solutionrelative:nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|d:\\firstsite\\backend\\mynotes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6897D1BA-C75A-4E54-8CEF-ECA3517589A4}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyNotes.http",
+              "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\MyNotes.http",
+              "RelativeDocumentMoniker": "MyNotes\\MyNotes.http",
+              "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\MyNotes.http",
+              "RelativeToolTip": "MyNotes\\MyNotes.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-29T09:07:43.04Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nginx.conf",
-              "DocumentMoniker": "D:\\FirstSite\\backend\\nginx.conf",
-              "RelativeDocumentMoniker": "nginx.conf",
-              "ToolTip": "D:\\FirstSite\\backend\\nginx.conf",
-              "RelativeToolTip": "nginx.conf",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-28T16:05:24.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "D:\\FirstSite\\backend\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "D:\\FirstSite\\backend\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-28T15:02:59.138Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\appsettings.json",
+              "RelativeDocumentMoniker": "MyNotes\\appsettings.json",
+              "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\appsettings.json",
+              "RelativeToolTip": "MyNotes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T09:06:27.221Z",
               "EditorCaption": ""
             },
             {
@@ -92,7 +96,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "MyNotes\\Controllers\\NotesController.cs",
+              "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "MyNotes\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:07:46.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "D:\\FirstSite\\backend\\nginx.conf",
+              "RelativeDocumentMoniker": "nginx.conf",
+              "ToolTip": "D:\\FirstSite\\backend\\nginx.conf",
+              "RelativeToolTip": "nginx.conf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-28T16:05:24.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MyNotes\\Properties\\launchSettings.json",
@@ -116,31 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotesController.cs",
-              "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\Controllers\\NotesController.cs",
-              "RelativeDocumentMoniker": "MyNotes\\Controllers\\NotesController.cs",
-              "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\Controllers\\NotesController.cs",
-              "RelativeToolTip": "MyNotes\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvx8AAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T14:07:46.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\appsettings.json",
-              "RelativeDocumentMoniker": "MyNotes\\appsettings.json",
-              "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\appsettings.json",
-              "RelativeToolTip": "MyNotes\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-26T13:59:30.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "NotesDbContext.cs",
               "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\DataAccess\\NotesDbContext.cs",
               "RelativeDocumentMoniker": "MyNotes\\DataAccess\\NotesDbContext.cs",
@@ -152,16 +157,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FirstSite\\backend\\MyNotes\\Program.cs",
               "RelativeDocumentMoniker": "MyNotes\\Program.cs",
               "ToolTip": "D:\\FirstSite\\backend\\MyNotes\\Program.cs",
               "RelativeToolTip": "MyNotes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T15:10:49.37Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\FirstSite\\backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\FirstSite\\backend\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-28T15:02:59.138Z"
             }
           ]
         }

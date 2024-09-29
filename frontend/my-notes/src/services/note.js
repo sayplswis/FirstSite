@@ -1,4 +1,3 @@
-import { filter } from '@chakra-ui/react';
 import axios from 'axios'
 export const fetchNotes = async (filter) =>{
     try
@@ -22,6 +21,18 @@ export const createNote = async (note) =>{
     try
     {
         var response = await axios.post('http://sayplswis.ru:5000/notes',note);
+        return response.status;
+    } 
+    catch(e)
+    {
+        console.error(e);
+    }
+}
+
+export const deleteNote = async (id) =>{
+    try
+    {
+        var response = await axios.post('http://sayplswis.ru:5000/notes', id);
         return response.status;
     } 
     catch(e)

@@ -25,6 +25,13 @@ namespace MyNotes.Controllers
             await _dbContext.SaveChangesAsync();
             return Ok();
         }
+        [HttpPost]
+        public async Task<IActionResult> Delete([FromQuery] Guid id)
+        {
+            await _dbContext.Notes.Where(x=>x.Id == id).ExecuteDeleteAsync();
+            await _dbContext.SaveChangesAsync();
+            return Ok();
+        }
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery]GetNotesRequest request)
         {

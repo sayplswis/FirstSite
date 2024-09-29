@@ -1,11 +1,18 @@
-import { Card, CardBody, CardFooter, CardHeader, Divider, Heading, Text } from '@chakra-ui/react';
+import { Button, Card, CardBody, CardFooter, CardHeader, Divider, Flex, Heading, Text } from '@chakra-ui/react';
 import moment from 'moment'
 
-export default function Note({title, description, createdAt}){
+export default function Note({title, description, createdAt, onDelete, id}){
+  const onSubmit = (e) => {
+    e.preventDefault();
+    onDelete(id);
+  }
     return(
-        <Card variant={'filled'}>
+        <Card variant={'filled'} onSubmit={onSubmit}>
               <CardHeader>
+              <Flex justify="space-between" align="center">
                 <Heading size={'md'}>{title}</Heading>
+                <Button type='submit' colorScheme='red' size={'xs'}> Удалить</Button>
+                </Flex>
               </CardHeader>
               <Divider borderColor={"gray"} />
               <CardBody>
