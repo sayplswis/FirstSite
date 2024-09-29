@@ -23,10 +23,9 @@ FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
 
 # Копируем конфигурацию nginx (если есть)
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Открываем порт 3000
-EXPOSE 3000
+EXPOSE 80
 
 # Запускаем Nginx
 CMD ["nginx", "-g", "daemon off;"]
