@@ -32,7 +32,7 @@ export const createNote = async (note) =>{
 export const deleteNote = async (id) =>{
     try
     {
-        var response = await axios.post('http://sayplswis.ru:5000/notes/delete', id);
+        var response = await axios.post('http://sayplswis.ru:5000/notes', id);
         return response.status;
     } 
     catch(e)
