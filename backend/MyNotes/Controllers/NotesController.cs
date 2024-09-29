@@ -26,7 +26,7 @@ namespace MyNotes.Controllers
             return Ok();
         }
         [HttpPost("delete")]
-        public async Task<IActionResult> Delete([FromQuery] Guid id)
+        public async Task<IActionResult> Delete([FromBody] Guid id)
         {
             await _dbContext.Notes.Where(x=>x.Id == id).ExecuteDeleteAsync();
             await _dbContext.SaveChangesAsync();
