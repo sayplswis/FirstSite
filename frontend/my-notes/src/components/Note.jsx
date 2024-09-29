@@ -3,6 +3,7 @@ import moment from 'moment'
 
 export default function Note({title, description, createdAt, onDelete, id}){
   const onSubmit = (e) => {
+    console.log('submit')
     e.preventDefault();
     onDelete(id);
   }

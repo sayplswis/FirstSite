@@ -23,7 +23,8 @@ function App() {
     let notes = await fetchNotes(filter);
     setNotes(notes);
   }
-    const onDelete = async (id) => {
+  const onDelete = async (id) => {
+    console.log(id);
     await deleteNote(id);
     let notes = await fetchNotes(filter);
     setNotes(notes);
@@ -52,7 +53,5 @@ function App() {
     </section>
   );
 }
-
-
 
 export default App
