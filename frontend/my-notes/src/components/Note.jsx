@@ -2,8 +2,7 @@ import { Button, Card, CardBody, CardFooter, CardHeader, Divider, Flex, Heading,
 import moment from 'moment'
 
 export default function Note({title, description, createdAt, onDelete, id}){
-  const onSubmit = (e) => {
-    console.log('submit')
+  const onSubmit = () => {
     onDelete(id);
   }
     return(
