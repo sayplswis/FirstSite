@@ -11,7 +11,7 @@ export default function Note({title, description, createdAt, onDelete, id}){
               <CardHeader>
               <Flex justify="space-between" align="center">
                 <Heading size={'md'}>{title}</Heading>
-                <Button type='submit' colorScheme='red' size={'xs'}> Удалить</Button>
+                <Button type='submit' colorScheme='red' size={'xs'}>Удалить</Button>
                 </Flex>
               </CardHeader>
               <Divider borderColor={"gray"} />
