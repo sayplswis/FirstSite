@@ -48,7 +48,7 @@ namespace MyNotes.Controllers
             return Ok(notes);
         }
 
-        private Expression<Func<Note, object>> GetSelectorKey(string sortItem)
+        private Expression<Func<Note, object>> GetSelectorKey(string? sortItem)
         {
             return sortItem switch
             {
