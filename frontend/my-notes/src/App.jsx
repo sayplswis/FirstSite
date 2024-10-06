@@ -35,7 +35,7 @@ function App() {
         <Filters filter={filter} setFilter={setFilter}/>
         </div>
         <ul className='flex flex-col gap-5 w-1/2'>
-        {
+        { Array.isArray(notes) && notes.length > 0 ? (
           notes.map((n) => (
           <li key={n.id}>
             <Note 
@@ -47,7 +47,9 @@ function App() {
             />
           </li>
         ))
-        }        
+      ) : (
+        <li>There are no notes available.</li>
+      )}        
         </ul>
     </section>
   );
