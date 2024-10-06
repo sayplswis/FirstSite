@@ -9,7 +9,7 @@ export const fetchNotes = async (filter) =>{
                 sortOrder: filter?.sortOrder
             }
         });
-        return response.data;
+        return Array.isArray(response.data) ? response.data : [];
     } 
     catch(e)
     {
