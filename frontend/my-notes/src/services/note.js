@@ -2,25 +2,27 @@ import axios from 'axios'
 export const fetchNotes = async (filter) =>{
     try
     {
-        var response = await axios.get('/notes',{
+        let response = await axios.get('/notes',{
             params:{
                 search: filter?.search,
                 sortItem: filter?.sortItem,
                 sortOrder: filter?.sortOrder
             }
         });
+        console.log("Response data:", response.data);
         return Array.isArray(response.data) ? response.data : [];
     } 
     catch(e)
     {
         console.error(e);
+        return [];
     }
 }
 
 export const createNote = async (note) =>{
     try
     {
-        var response = await axios.post('/notes',note);
+        let response = await axios.post('/notes',note);
         return response.status;
     } 
     catch(e)
@@ -32,7 +34,7 @@ export const createNote = async (note) =>{
 export const deleteNote = async (id) =>{
     try
     {
-        var response = await axios.post('/notes/delete', {id});
+        let response = await axios.post('/notes/delete', {id});
         return response.status;
     } 
     catch(e)
