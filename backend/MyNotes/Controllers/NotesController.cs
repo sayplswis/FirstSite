@@ -45,7 +45,7 @@ namespace MyNotes.Controllers
 
             var notes = await notesQuery.ToListAsync();
 
-            return Ok(notes);
+            return Ok(notes ?? []);
         }
 
         private Expression<Func<Note, object>> GetSelectorKey(string? sortItem)
