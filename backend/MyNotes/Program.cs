@@ -19,6 +19,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("http://sayplswis.ru");
         policy.AllowAnyHeader();
         policy.AllowAnyMethod();
+        policy.AllowCredentials();
     });
 });
 

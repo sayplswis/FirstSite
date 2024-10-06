@@ -2,7 +2,7 @@ import axios from 'axios'
 export const fetchNotes = async (filter) =>{
     try
     {
-        var response = await axios.get('http://sayplswis.ru:5000/notes',{
+        var response = await axios.get('/notes',{
             params:{
                 search: filter?.search,
                 sortItem: filter?.sortItem,
@@ -20,7 +20,7 @@ export const fetchNotes = async (filter) =>{
 export const createNote = async (note) =>{
     try
     {
-        var response = await axios.post('http://sayplswis.ru:5000/notes',note);
+        var response = await axios.post('/notes',note);
         return response.status;
     } 
     catch(e)
@@ -32,7 +32,7 @@ export const createNote = async (note) =>{
 export const deleteNote = async (id) =>{
     try
     {
-        var response = await axios.post('http://sayplswis.ru:5000/notes/delete', {id});
+        var response = await axios.post('/notes/delete', {id});
         return response.status;
     } 
     catch(e)
